@@ -1,0 +1,31 @@
+#include <stdlib.h>
+int main () {
+
+int a, b, c;
+
+printf("Digite o valor de A: ");
+scanf("%d", &a);
+
+printf("Digite o valor de B: ");
+scanf("%d", &b);
+
+printf("Digite o valor de C: ");
+scanf("%d", &c);
+
+if(c == 1){
+ 
+	int somaAB = a+b;
+	printf("O valor da soma de A + B é %d\n, somaAB);
+
+} else if (c == 2) {
+	 
+	int prod = a*b; 
+	printf(O valor da multiplicação de A por B é %d\n, prod);
+
+} else {
+	int sub = 0;
+	sub = a - b;
+	printf("A subtração de A - B é %d\n, sub); 
+
+return 0;
+}
